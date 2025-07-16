@@ -1,1 +1,1 @@
-# This Repository Contains Simple Python Projects Using Libraries Like Numpy,Pandas,Matplotlib,Scikit-Learn....etc
+# This Repository Contains Simple Python Projects. Libraries Like Numpy,Pandas,Matplotlib,Scikit-Learn....etc implementation is also done here.
