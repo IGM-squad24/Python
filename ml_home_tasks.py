@@ -1,4 +1,4 @@
-#-----------------Task#01- Supervised Learning – Predicting House Prices --------------------
+#-----------------Task#01- Supervised Learning – Predicting House Prices (Project# 01)--------------------
 # 1. Load the dataset and display the first five rows
 from sklearn.datasets import fetch_california_housing
 import pandas as pd
@@ -46,7 +46,7 @@ y_pred_tree = tree.predict(X_test)
 mse_tree = mean_squared_error(y_test, y_pred_tree)
 print("Decision Tree MSE:", mse_tree)
 
-#-----------------Task 2: Supervised Learning – Classifying Iris Flowers-----------------
+#-----------------Task 2: Supervised Learning – Classifying Iris Flowers (Project# 02)-----------------
 
 # 1. Load the dataset and display details
 from sklearn.datasets import load_iris
@@ -94,7 +94,7 @@ logreg.fit(X_train, y_train)
 y_pred_logreg = logreg.predict(X_test)
 acc_logreg = accuracy_score(y_test, y_pred_logreg)
 print("Logistic Regression Accuracy:", acc_logreg)
-#---------------------Task 3: Unsupervised Learning – Customer Segmentation------------------
+#---------------------Task 3: Unsupervised Learning – Customer Segmentation(Project# 03)------------------
 # 1. Load the dataset
 df_mall = pd.read_csv('Mall_Customers.csv')
 print(df_mall.head())
